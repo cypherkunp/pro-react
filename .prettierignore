@@ -1,4 +1,11 @@
 # Ignore artifacts:
+.cache
+
 build
 coverage
-/node_modules
+package.json
+package-lock.json
+yarn.lock
+public
+dist
+node_modules
