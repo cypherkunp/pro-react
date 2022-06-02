@@ -1,0 +1,8 @@
+.search-bar {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+  }
+}
